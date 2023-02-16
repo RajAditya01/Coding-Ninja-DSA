@@ -15,7 +15,13 @@ int main(){
     // cout << a << " " << &a;
 
     //q20
-    int a[6] = {1, 2, 3};
-    cout << a <<endl;
-    cout << (a + 2);
+
+    // int a[6] = {1, 2, 3};
+    // cout << a <<endl;
+    // cout << (a + 2);
+
+    //q22
+    int a[] = {1, 2, 3, 4, 5};
+    cout << *(a) << " " << *(a + 4);
+
 }
