@@ -11,4 +11,17 @@ int main(){
 
     cout<< *a <<endl;
     cout<< *(a+1) <<endl;
+
+
+    int *p= &a[0];
+    cout<< a <<endl;
+    cout<< p <<endl;
+
+    cout<< &p <<endl;
+    cout<< &a <<endl;
+
+    cout << sizeof(p) <<endl;
+    cout<< sizeof(a) << endl;
+    
+    
 }
