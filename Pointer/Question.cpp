@@ -11,13 +11,11 @@ int main(){
     // cout << *(b) << " " << *(b+1)<<endl;
 
     //q19
-    int a[6] = {1, 2, 3};
-    cout << a << " " << &a;
+    // int a[6] = {1, 2, 3};
+    // cout << a << " " << &a;
 
     //q20
     int a[6] = {1, 2, 3};
-cout << (a + 2);
-
-
-  
+    cout << a <<endl;
+    cout << (a + 2);
 }
