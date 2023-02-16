@@ -2,12 +2,17 @@
 using namespace  std;
 
 int main(){
-    int a[5];
-    int *c;
-    cout << sizeof(a) << " " << sizeof(c)<<endl;  
+    // int a[5];
+    // int *c;
+    // cout << sizeof(a) << " " << sizeof(c)<<endl;  
 
-    //q18
-    int b[] = {1, 2, 3, 4};
-    cout << *(b) << " " << *(b+1)<<endl;
+    // //q18
+    // int b[] = {1, 2, 3, 4};
+    // cout << *(b) << " " << *(b+1)<<endl;
+
+    //q19
+    int a[6] = {1, 2, 3};
+    cout << a << " " << &a;
+
   
 }
