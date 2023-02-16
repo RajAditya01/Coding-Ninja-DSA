@@ -17,6 +17,10 @@ int main(){
     p=p-2;
     cout<<p<<endl;
 
+    double d=102.3;
+    double *db=&d;
+    cout<< db<< endl;
+
 
 
     return 0;
