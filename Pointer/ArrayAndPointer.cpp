@@ -27,7 +27,5 @@ int main(){
     p=a+1;
 
     cout << sizeof(p) <<endl;
-    cout<< sizeof(a) << endl;
-
-    
+    cout<< sizeof(a) << endl;   
 }
