@@ -7,7 +7,7 @@ int main() {
 
 	int * p = new int;
 
-	*p = 10;
+   	*p = 10;
 
 	cout << *p << endl;
 
@@ -49,5 +49,4 @@ int main() {
 	}
 
 	cout << max << endl;
-
 }
