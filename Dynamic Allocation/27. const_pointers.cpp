@@ -1,18 +1,12 @@
 #include <iostream>
 using namespace std;
 
-
 void g(int const & a) {
-
 	a++;
-
 }
-
 
 void f(const int * p) {
 }
-
-
 int main() {
 
 	int const i = 10;
