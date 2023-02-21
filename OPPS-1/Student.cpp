@@ -3,13 +3,11 @@ class Student {
 	int rollNumber;
 	
 	private :
-
 	int age;
 
 
 	public :
-
-
+	
 	// Default constructor
 	/*Student() {
 		cout << "Constreuctor called ! "<< endl;
