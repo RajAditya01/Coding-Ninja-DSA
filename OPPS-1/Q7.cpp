@@ -1,14 +1,16 @@
 #include <iostream>
 using namespace std;
 
-class Shape{
-    public : 
+class Shape
+{
+public:
     int height;
     int width;
 };
 
-int main() {
+int main()
+{
     Shape *s = new Shape();
-    s -> height = 1;
-    cout << s -> height;
+    s->height = 1;
+    cout << s->height;
 }
