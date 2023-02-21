@@ -1,7 +1,5 @@
 class Student {
-
 	public :
-
 	int rollNumber;
 	
 	private :
