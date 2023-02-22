@@ -44,7 +44,6 @@ class Student {
 		}
 		age = a;
 	}
-
 };
 
 
