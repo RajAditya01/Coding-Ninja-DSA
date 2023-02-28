@@ -7,11 +7,10 @@ class StackUsingArray {
 
 	public :
 
-//Constructor
-	StackUsingArray(int totalSize) {
-		data = new int[totalSize];
+	StackUsingArray() {
+		data = new int[4];
 		nextIndex = 0;
-		capacity = totalSize;
+		capacity = 4;
 	}
 
 	// return the number of elements present in my stack
@@ -35,8 +34,15 @@ class StackUsingArray {
 	// insert element
 	void push(int element) {
 		if(nextIndex == capacity) {
-			cout << "Stack full " << endl;
-			return;
+			int *newData = new int[2 * capacity];
+			for(int i = 0; i < capacity; i++) {
+				newData[i] = data[i];
+			}
+			capacity *= 2;
+			delete [] data;
+			data = newData;
+			/*cout << "Stack full " << endl;
+			return;*/
 		}
 		data[nextIndex] = element;
 		nextIndex++;
@@ -51,7 +57,6 @@ class StackUsingArray {
 		nextIndex--;
 		return data[nextIndex];
 	}
-
 	int top() {
 		if(isEmpty()) {
 			cout << "Stack is empty " << endl;
