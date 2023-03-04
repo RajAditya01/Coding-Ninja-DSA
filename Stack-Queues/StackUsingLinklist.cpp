@@ -1,50 +1,51 @@
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-template <typename T>
-class Node {
-	public : 
-		T data;
-		Node<T> *next;
+// template <typename T>
+// class Node {
+// 	public : 
+// 		T data;
+// 		Node<T> *next;
 
-		Node(T data) {
-			this -> data = data;
-			next = NULL;
-		}
+// 		Node(T data) {
+// 			this -> data = data;
+// 			next = NULL;
+// 		}
 
-		~Node() {
-			delete next;
-		}
-};
+// 		~Node() {
+// 			delete next;
+// 		}
+// };
 
-template <typename T>
-class Stack {
-	Node<T> *head;
-	int size;		// number of elements prsent in stack
+// template <typename T>
+// class Stack {
+// 	Node<T> *head;
+// 	int size;		// number of elements prsent in stack
 
-	public :
+// 	public :
 
-	Stack() {
+// 	Stack() {
 
-	}
+// 	}
 
-	int getSize() {
+// 	int getSize() {
 		
-	}
+// 	}
 
-	bool isEmpty() {
+// 	bool isEmpty() {
 
-	}
+// 	}
 
-	void push(T element) {
+// 	void push(T element) {
 
-	}
+// 	}
 
-	T pop() {
+// 	T pop() {
 
-	}
+// 	}
 
-	T top() {
+// 	T top() {
 
-	}
-};
+// 	}
+// };
+
