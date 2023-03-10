@@ -13,6 +13,6 @@ x my_greater(x a, x b){
 
 int main(){
     cout << my_greater(5, 9) << endl;
-    cout << std::greater<int>()(5, 9) << endl;
+    cout << my_greater(2.2,5.2)<< endl;
     return 0;
 }
