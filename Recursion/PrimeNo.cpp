@@ -14,5 +14,12 @@ int main(){
         }
         j++;
     }
+
+    if(count==2){
+        cout<<"prime Number"<<endl;
+            }
+    else{
+        cout<<"Composite number"<<endl;
+    }
     return 0;
 }
